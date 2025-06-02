@@ -1,0 +1,122 @@
+.about-mission-wrapper {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .about-mission-wrapper h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .tab-buttons {
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+  .about-mission-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  button.tab-btn {
+    padding: 8% 5%;
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.tab-buttons .active{
+    background-color: #005bff !important; 
+    color: white;
+}
+  
+  .about-tab-button.active {
+    background-color: #005bff !important;
+    color: #fff;
+    box-shadow: 0 8px 18px rgba(0, 91, 255, 0.2);
+  }
+  .tab-content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tab-content-box li{
+    line-height: 1.5em;
+    text-align: left !important;
+  }
+  
+  .about-tab-button svg {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+  }
+  
+  .about-tab-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-tab-content h4 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  .about-tab-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  .about-feature-list {
+    margin-top: 20px;
+  }
+  
+  .about-feature-item {
+    display: flex;
+    align-items: start;
+    gap: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .about-feature-item svg {
+    color: #005bff;
+    font-size: 1.2rem;
+    margin-top: 4px;
+  }
+  
+  .about-feature-item strong {
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .about-tab-button {
+      padding: 15px;
+      font-size: 0.95rem;
+    }
+  
+    .about-tab-content h4 {
+      font-size: 1.3rem;
+    }
+    .main-heading{
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-tab-button {
+      min-width: 140px;
+      padding: 12px;
+    }
+  
+    .about-mission-wrapper h2 {
+      font-size: 2rem;
+    }
+  }
+  

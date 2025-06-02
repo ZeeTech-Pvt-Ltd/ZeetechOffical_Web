@@ -1,0 +1,86 @@
+.api-section {
+    position: relative;
+    padding: 5% 2%;
+    background: url('Artboard-1-10.webp') no-repeat center center / cover; /* Optional background image */
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  /* Overlay */
+  .api-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
+    z-index: 0;
+  }
+  
+  /* Ensure content is above overlay */
+  .api-container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .api-content {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .api-content h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .api-content h2 span {
+    color: #ff6a00;
+  } 
+  .api-content p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .api-image {
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff2e;
+      border-radius: 35px;
+  }
+  
+  .api-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  @media (max-width: 767px) {
+    .api-section{
+      height: 800px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  @media (max-width: 460px){
+    .api-section{
+      height: 900px;
+      gap: 10px;
+      display: flex;
+      align-items: center;
+      padding: 5%;
+      padding-top: 15%;
+    }
+  }
+  
+  

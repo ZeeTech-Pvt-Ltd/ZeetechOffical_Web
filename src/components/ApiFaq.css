@@ -1,0 +1,126 @@
+.faq-section {
+    background-color: #f8f9fa;
+  }
+  .main-faq-content{
+    background-color: #0047AB;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+  }
+  div#faqAccordion {
+    margin-left: -25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100% !important;
+}
+h2.accordion-header {
+    border: 1px solid white;
+}
+.faq-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+  .faq-info-box {
+    color: white;
+
+  }
+  
+  .faq-info-box h4 {
+    color: #ffffff;
+  }
+  
+  .accordion-button {
+    font-weight: 500;
+    background-color: #e9ecef;
+    color: #212529;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #0047AB;
+    color: white;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-item {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .accordion-body {
+    background-color: white;
+    color: #212529;
+    padding: 15px 20px;
+  }
+  .accordion-body p{
+    font-size: 14px;
+  }  
+  .accordion-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.accordion-collapse.show {
+  max-height: 1000px; /* Large enough to fit the content */
+  transition: max-height 0.4s ease;
+}
+  @media (max-width: 767px) {
+    .faq-info-box {
+      text-align: center;
+    }
+    div#faqAccordion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100% !important;
+        margin-top:10px !important;
+        margin-left: 0 !important;
+    }
+    .main-faq-content{
+        background-color: #0047AB;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding-right: 5%;
+      }
+      .faq-sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto !important;
+    }
+  }
+  @media (max-width: 465px){
+    .main-faq-content{
+        background-color: #0047AB;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        padding-right: 5%;
+      }
+      .faq-sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        margin-top: 10px !important;
+    }
+    
+  }
+  

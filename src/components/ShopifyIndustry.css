@@ -1,0 +1,57 @@
+.shopify-industries-section {
+    padding: 40px 20px;
+  }
+.shopify-content-head h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+  .shopify-industries-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin: 0 auto;
+}
+  
+  .shopify-industry-card {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 24px;
+    background-color: #ffff;
+    transition: all 0.3s ease;
+  }
+  
+  .shopify-industry-card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shopify-industry-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 12px;
+  }
+  
+  .shopify-industry-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .shopify-industry-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Responsive padding */
+  @media (max-width: 768px) {
+    .shopify-industries-section {
+      padding: 20px 10px;
+    }
+    .shopify-industries-grid{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+  }
+  

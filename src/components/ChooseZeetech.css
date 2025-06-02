@@ -1,0 +1,58 @@
+.choose-zeetech{
+    padding: 60px 20px;
+    background-color: #FCFCFC;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .choose-zeetech-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .choose-zeetech-image {
+    flex: 1 1 400px;
+    text-align: center;
+  }
+  
+  .choose-zeetech-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .choose-zeetech-content {
+    flex: 1 1 500px;
+  }
+  
+  .choose-zeetech-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #111;
+  }
+  
+  .choose-zeetech-content p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+  
+  .choose-zeetech-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 15px;
+  }
+  .contact-btn{
+    background-color:#0046ff ;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+  }
+ 
+  
+  

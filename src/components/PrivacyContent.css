@@ -1,0 +1,67 @@
+.privacy-hero {
+  width: 100%;
+  min-height: 250px;
+  background: url('close-up-laptop-computer-desk-wi.webp') center center / cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+}
+
+.privacy-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Deep dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.privacy-overlay h1{
+  font-size: 45px;
+  color:white;
+}
+.privacy-policy {
+  background-color: #FCFCFC;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.policy-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #023e8a;
+}
+
+.updated-date {
+  color: #666;
+  font-style: italic;
+}
+
+.policy-section {
+  margin-bottom: 2.5rem;
+}
+
+.policy-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0077b6;
+  margin-bottom: 0.75rem;
+}
+
+.policy-section p,
+.policy-section ul {
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.policy-section ul {
+  padding-left: 1.5rem;
+}
+
+.policy-section ul li {
+  margin-bottom: 0.5rem;
+}

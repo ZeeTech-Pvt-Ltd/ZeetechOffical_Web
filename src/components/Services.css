@@ -1,0 +1,54 @@
+.home-service-box {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 1.8rem 1.5rem;
+  height: 100%;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: 3px 1px 10px 3px rgba(0, 0, 0, 0.1);
+}
+img.tech-images{
+  margin-bottom: 20px;
+  width: 100%;
+}
+  .service-box:hover {
+    transform: translateY(-5px);
+  }
+
+  .service-icon {
+    font-size: 2rem;
+    color: #0046ff;
+  }
+
+  .btn-learn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.75rem;
+  }
+
+  .highlight-box {
+    background-color: #0046ff;
+    color: white;
+    border-radius: 12px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .highlight-box a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .highlight-box a:hover {
+    text-decoration: underline;
+  }
+ @media (max-width: 767px) {
+  img.tech-images{
+    margin-bottom: 10px;
+    width: 50%;
+  }
+}

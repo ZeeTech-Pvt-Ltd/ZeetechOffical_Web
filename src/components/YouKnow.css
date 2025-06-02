@@ -1,0 +1,115 @@
+.you-know-box {
+    background-color: #0046ff;
+    color: white;
+    border-radius: 40px 0px 40px 0px;
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .you-know-box .orange {
+    color: #f87302;
+    font-size: 4.3rem;
+  }
+
+  .you-know-box .white-outline {
+    font-size: 4.3rem;
+    color: #0046ff;
+    font-weight: 900;
+    -webkit-text-stroke: 2px white !important;
+    margin-top: -30px;
+  }
+
+  .info-box {
+   background: #111827;
+     border-radius: 1rem;
+    padding: 2rem;
+  }
+
+  .info-item {
+    border-right: 1px solid #ddd;
+  }
+
+  .info-item:last-child {
+    border-right: none;
+  }
+
+  .info-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #F87302; 
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-text {
+  font-size: 1rem;
+  color: #d9e4ec;
+  line-height: 1.6;
+}
+
+  @media (max-width: 767px) {
+    .info-box {
+  background: #0d1b2a; /* Deep navy blue to match hero section */
+  padding: 4rem 2rem;
+  border-radius: 1.5rem;
+  color: #ffffff;
+}
+.know-para p{
+  font-size: 16px !important;
+}
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.info-item {
+  background: linear-gradient(135deg, rgba(0, 119, 182, 0.1), rgba(255, 255, 255, 0.05));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.info-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 255, 255, 0.15);
+}
+
+.info-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #F87302; 
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-text {
+  font-size: 1rem;
+  color: #d9e4ec;
+  line-height: 1.6;
+}
+
+    .you-know-box{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .you-know-box .orange{
+        font-size: 2.5rem;
+    }
+    .you-know-box .white-outline{
+        font-size: 2.5rem;
+    }
+  }

@@ -1,0 +1,36 @@
+.ai-growth-section {
+    padding:  20px;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .ai-growth-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+  }
+  .ai-growth-image {
+    flex: 1 1 400px;
+    text-align: center;
+  }
+  .ai-growth-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .ai-growth-content {
+    flex: 1 1 500px;
+  }
+  .ai-growth-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #111;
+  }
+  .ai-growth-content p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }

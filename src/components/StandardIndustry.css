@@ -1,0 +1,65 @@
+h1, h2, h3, h4, h5, h6, p{
+    text-align: start;
+}
+.sticky-section {
+    position: sticky;
+    top: 2rem;
+  }
+  .main-heading{
+      font-size:45px;
+  }
+  .sticky-section-text{
+      color:black
+  }
+  .blue-box {
+    background-color: #0046ff;
+    color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .contact-tn{
+    background-color: #0046ff;
+    padding: 10px;
+    border: 1px solid white;
+    color:white;
+    width: 35%;
+  }
+  .power{
+      font-size:35px;
+  }
+
+  .feature-box {
+    border-bottom: 1px solid #ddd;
+    padding: 2.25rem 0;
+  }
+
+  .feature-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #e0e0e0;
+  }
+
+  .feature-icon {
+    font-size: 1.5rem;
+    color: #0046ff;
+  }
+
+  @media (max-width: 767px) {
+    .sticky-section {
+      position: static;
+      top: auto;
+    }
+    .blue-box{
+      width:100% !important;
+    }
+    .main-heading{
+        font-size: 2rem;
+    }
+    .contact-tn{
+        width:50%;
+    }
+  }

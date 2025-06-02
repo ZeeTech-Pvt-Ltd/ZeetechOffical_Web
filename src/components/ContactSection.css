@@ -1,0 +1,71 @@
+.contact-sec {
+    background-color: #0057ff; /* ZeeTech blue */
+    color: white;
+    padding: 3rem 1.5rem;
+    border-radius: 2rem;
+    margin: 2rem 1rem;
+    max-width: 1300px;
+    
+  }
+  .contact-sec{
+    width: 70% !important;
+    margin: 0 auto !important;
+    margin-top: 3% !important;
+  }
+  .contact-heading span{
+    color:#f87302
+  }
+  
+  .contact-section h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  
+  .contact-section .highlight {
+    color: #f87302; /* ZeeTech orange */
+  }
+  
+  .contact-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-top: 1rem;
+  }
+  
+  .contact-section .form-label {
+    color: white;
+    font-weight: 500;
+    text-align: left !important;
+  }
+  .input-sec{
+    text-align: left;
+  }
+  .contact-section .form-control,
+  .contact-section textarea {
+    border-radius: 0.5rem;
+  }
+  span.text-danger{
+    padding: 0px;
+  }
+  .submit-btn {
+    background-color: #f87302;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #f87302;
+  }
+  .submit-btn{
+    background-color: #f87302;
+  }
+  @media (max-width: 991px) {
+    .contact-sec{
+      width: 100% !important;
+      margin: 0 auto !important;
+      margin-top: 3% !important;
+    }
+  }

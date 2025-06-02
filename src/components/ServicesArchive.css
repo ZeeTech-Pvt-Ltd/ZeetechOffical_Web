@@ -1,0 +1,49 @@
+.services-archive-section {
+  background: #fcfcfc;
+}
+
+.section-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #0046FF;
+}
+.section-title span{
+  color:#F97301 !important;
+}
+
+.archeive-service-box {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(21, 21, 21, 0.05);
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.archeive-service-box:hover {
+  background-color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(21, 21, 21, 0.1);
+}
+
+/* .archeive-service-box lottie-player {
+  transition: transform 0.3s;
+} */
+
+.archeive-service-box:hover .service-icon lottie-player {
+  transform: scale(1.1);
+
+}
+
+.service-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1c1e23;
+}
+
+.service-description {
+  color: #6b7280;
+  font-size: 0.95rem;
+}

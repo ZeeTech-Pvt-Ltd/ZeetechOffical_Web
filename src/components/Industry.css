@@ -1,0 +1,198 @@
+.industry-serve-sec{
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+.industry-heading{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.home-industry-para{
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  margin: 0 auto;
+
+}
+.industry-wrapper {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  margin-top: 10px;
+  padding: 5px;
+  scroll-snap-type: x mandatory;
+  justify-content: center;
+}
+
+.industry-slide {
+  flex: 0 0 100px;
+  max-width: 100px;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  scroll-snap-align: start;
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-break: break-word;
+  height: 500px;
+}
+
+.industry-slide h3 {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  color:white;
+  font-weight: 700;
+}
+
+.industry-slide.active {
+  flex: 0 0 800px;
+  max-width: 700px;
+  padding: 20px;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.industry-slide.active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Change color and opacity as needed */
+  z-index: 1;
+  pointer-events: none; /* Let clicks pass through if needed */
+}
+.industry-slide.active h3 {
+  writing-mode: horizontal-tb;
+  transform: rotate(0deg);
+  font-size: 18px;
+  margin-bottom: 10px;
+  color:whitep;
+}
+
+.industry-slide.active p {
+  font-size: 14px;
+  color:white;
+}
+.industry-slide {
+  position: relative;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  height: 400px;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.industry-slide .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9); /* semi-transparent black */
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.industry-slide h3,
+.industry-slide p {
+  position: relative;
+  z-index: 2;
+}
+
+
+/* Responsive behavior */
+.industry-para{
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
+
+}
+@media (max-width:1024px) {
+  .home-industry-para{
+    width: 100%;
+  }
+  .industry-slide h3 {
+    writing-mode: vertical-rl;
+    transform: rotate(-90deg);
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+  .industry-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px !important;
+    scroll-snap-type: x mandatory;
+    justify-content: center;
+  }
+  .industry-slide.active {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .industry-slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0s ease;
+    scroll-snap-align: start;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-break: break-word;
+    height: 200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .industry-slide.active {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 20px;
+    align-items: flex-start;
+    height: 200px;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+  .industry-slide.active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Change color and opacity as needed */
+  z-index: 1;
+  pointer-events: none; /* Let clicks pass through if needed */
+}
+  .industry-wrapper {
+    display: flex;
+   flex-direction: column;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+    justify-content: center;
+  }
+}

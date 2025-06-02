@@ -1,0 +1,87 @@
+.contactinfo-main-head {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .contactinfo-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #175CFF;
+  }
+  
+  .contactinfo-content p {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contactinfo-inner-points {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    width: 80%;
+  }
+  
+  .contactinfo-point1,
+  .contactinfo-point2,
+  .contactinfo-point3 {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 20px;
+    max-width: 500px;
+    flex: 1 1 300px;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .contactinfo-point-image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contactinfo-point1,
+    .contactinfo-point2,
+    .contactinfo-point3 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .contactinfo-point-image img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .contactinfo-point-content h3 {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+  
+    .contactinfo-point-content p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contactinfo-inner-points{
+        width: 100%;
+    }
+  
+    .contactinfo-content p {
+      font-size: 0.9rem;
+      padding: 0 10px;
+      text-align: center;
+    }
+    .contactinfo-point-content p{
+        text-align: center;
+    }
+  }
+  
